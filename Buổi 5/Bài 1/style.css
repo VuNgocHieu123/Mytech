@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    padding: 8px;
+}
+
+.header-list{
+    padding: 5px;
+    margin: 5px;
+}
+
+.header-list label{
+    padding: 10px;
+}
+
+.content{
+    padding-top: 20px;
+}
+
+@media (max-width:500px){
+    .header-list{
+        display: none;
+    }
+}

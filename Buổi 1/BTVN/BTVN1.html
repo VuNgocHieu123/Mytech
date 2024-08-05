@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+      
+    </style>
+</head>
+<body>
+    <!--Bài tập 1-->
+    <form action="">
+     <h1>Form Đăng Ký</h1>
+     <p>
+        <label for="text">Họ tên:</label> 
+        <input type="text" placeholder="">
+    </p>
+     <p>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="">
+    </p>
+     <p>
+        <label for="password">Mật khẩu:</label>
+        <input type="password" placeholder="">
+    </p>
+     <p>
+        <label for="text">Giới tính:</label>
+        <input type="radio" id="Nam" >
+        <label for="text">Nam</label>
+        <input type="radio" id="Nữ">
+        <label for="text">Nữ</label>
+    </p>
+    <p>
+        <label for="text">Sở thích:</label>
+        <input type="checkbox" id="Đọc sách">
+        <label for="text">Đọc sách</label>
+        <input type="checkbox" id="Du lịch">
+        <label for="text">Du lịch</label>
+    </p>
+    <p>
+        <input type="submit" value="Gửi">
+    </p>
+    </form>
+
+    <!--Bài tập 2-->
+    <h1>Bảng phức tạp</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Môn học</th>
+            <th colspan="2">Kỳ 1</th>
+            <th colspan="2">Kỳ 2</th>
+        </tr>
+        <tr>
+            <th>Điểm giữa kỳ</th>
+            <th>Điểm cuối kỳ</th>
+            <th>Điểm giữa kỳ</th>
+            <th>Điểm cuối kỳ</th>
+        </tr>
+        <tr>
+            <td>Toán</td>
+            <td>8</td>
+            <td>9</td>
+            <td>7</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Văn</td>
+            <td>7</td>
+            <td>8</td>
+            <td>6</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+
+    <!--Bài tập 3-->
+    <h1>Nhúng video và âm thanh</h1>
+    <h2>Video youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQZJ5dyWN4o?si=M6QZth3TH-XIQly7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    <audio controls>
+        <source src="./Media/Không Qua Được Vòng Luân Hồi (Silver Smoke Remix) - Nhạc Xu Hướng Tiktok 2023.mp3" type="audio/mp3">
+    </audio>
+
+    <!--Bài tập 4-->
+    <li><a href="./Trangchu.html">Trang chủ</a></li>
+    <li><a href="./Gioithieu.html">Giới thiệu</a></li>
+    <li><a href="./Dichvu.html">Dịch vụ</a></li>
+    <li><a href="./Lienhe.html">Liên hệ</a></li>
+
+    <!--Bài tập 5-->
+    <h1>Giới thiệu cá nhân</h1>
+    <h2>Ảnh đại diện</h2>
+    <img src="./Media/Ảnh 1.jpg" alt="">
+    <h2>Thông tin cá nhân</h2>
+    <p>Họ và tên: Nguyễn Văn A</p>
+    <p>Email: hieuvu24102001@gmail.com</p>
+    <p>Địa chỉ: Đông Triều - Quảng Ninh</p>
+    <h2>Kinh nghiệm làm việc</h2>
+    <p>Công ty A</p>
+    <p>Công ty B</p>
+    <h2>Kỹ năng</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>Javascript</li>
+        <li>Python</li>
+    </ul>
+    <h2>Sở thích</h2>
+    <ul>
+        <li>Đọc sách</li>
+        <li>Du lịch</li>
+        <li>Thể thao</li>
+    </ul>
+
+    <!--Bài tập 6-->
+    <h1>FAQ(Câu hỏi thường gặp)</h1>
+    <p>Câu 1: Sở thích của bạn là gì?<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Tôi thích xem phim</p>
+    <p>Câu 2: Bạn thích đi đâu nhất?<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Tôi thích đi date</p>
+    <p>Câu 3: Bạn có một vài sở thích khác không?<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Tôi thích chơi game, nghe nhạc</p>
+
+    <!--Bài tập 7-->
+    <h1>Dự báo thời tiết</h1>
+    <table>
+        <tr>
+            <th>Ngày</th>
+            <th>Nhiệt độ</th>
+            <th>Tình Trạng thời tiết</th>
+        </tr>
+        <tr>
+            <td>Thứ 2</td>
+            <td>30 độ</td>
+            <td>Nắng</td>
+        </tr>
+        <tr>
+            <td>Thứ 3</td>
+            <td>20 Độ</td>
+            <td>Lạnh</td>
+        </tr>
+        <tr>
+            <td>Thứ 4</td>
+            <td>25 độ</td>
+            <td>Mưa nhẹ</td>
+        </tr>
+    </table>
+
+    <input type="text" placeholder="">
+</html>

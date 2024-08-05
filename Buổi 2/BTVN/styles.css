@@ -1,0 +1,106 @@
+/*
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    
+}
+
+li{
+    display: inline;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: aqua;
+    color: red;
+}
+
+.form1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+input{
+    text-align: center;
+}
+
+label{
+    text-align: left;
+}
+
+#input1{
+    border-radius: 5px;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-image: 
+    url("https://plus.unsplash.com/premium_photo-1718204438280-484021f08ca1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
+}
+
+.wapaper{
+    height: auto;
+    width: auto;
+    background: transparent;
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+}
+
+.wapaper h1{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.wapaper h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 80px 20px;
+}
+
+.header{
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgb(224, 75, 75);
+}
+
+.btn{
+    text-align: center;
+    color:white;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 10px;
+}
